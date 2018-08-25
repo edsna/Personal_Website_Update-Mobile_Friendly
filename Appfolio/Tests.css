@@ -1,0 +1,157 @@
+
+.card-block{
+	text-align: center;
+	background-color: #6c757d !important;
+	color: #fff;
+	border-radius: 15px 50px;
+}
+.col-sm-4{
+	background-color: #fff;
+	padding: 20px;	
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.1s;
+    border-radius: 15px 50px;
+}
+.col-sm-4:hover {
+    box-shadow: 0 100px 100px 0 rgba(0,0,0,0.2);
+	background-color: #6c757d !important;
+	border-radius: 15px 50px;
+}
+
+.Professional_Networks{
+	padding: 0px;
+	float: center;
+	background-color: #f1f1f1;
+}
+
+.linksFooter{
+	padding:0px;
+	margin: 0px;
+	float: center;
+	text-align: center;
+}
+
+.Footer_List_Element{
+	display: inline;
+	margin: 5px;
+}
+
+#copyright{
+	background-color: #f1f1f1;
+	padding:0px;
+	margin: 0px;
+}
+
+#button{
+	margin: 5px;
+	border-radius: 15px 50px;
+}
+
+.artLogoApp{
+	display: inline-block; 
+	
+}
+
+#blue{
+	color: #0000FF;
+	font-weight:bold;
+	font-size:20px;
+	font-family: Lucida Sans Typewriter;
+}
+
+#red{
+	color: red;
+	font-weight:bold;
+	font-size:20px;
+	font-family: Lucida Sans Typewriter;
+}
+
+#green{
+	color: green;
+	font-weight:bold;
+	font-size:20px;
+	font-family: Lucida Sans Typewriter;
+}
+
+/*Update for better performance should begin here*/
+.Links_Right{
+	display: inline-block;
+	float: right;
+	margin: 5px;
+	color: blue;
+}
+
+.testing{
+	float: left;
+	color: blue;
+}
+
+.listsClass{
+	/*background-color: white;*/
+	margin: 0px;
+	font-weight: 600px;
+	color: blue;
+	display: inline-block;	/*Removes bullet points*/
+	font-family: Lucida Sans Typewriter;
+	padding-right: 5px;
+}
+
+.MenuClass{
+	display: inline-block;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.toggler_button:hover .dropdown_content {
+    display: block;
+}
+
+  /*SIZE OF WINDOW WHEN IT COMES OUT-AFTER CLICKED*/
+.dropdown_content{
+	display: none;
+	z-index: 1000;
+	position: absolute;
+	width: 180px; 
+	margin-left: -207px;
+	margin-top: 9px;
+	border: 1px solid #ccc !important;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	cursor: default;
+	overflow: inherit;
+	
+}
+
+.dropdown_pin{
+	margin-top: -12px;
+	margin-left: 177px;
+}
+
+.FirstSection{
+	display: inline;
+	margin: 5px;
+}
+
+.SecondSection{
+	display: inline;
+	margin: 5px;
+}
+/*More button has to become a link and redirect to my mobile Apps repository on git hub*/
+
+.More{
+	background-color: #f1f1f1;
+	margin: 0px;
+	padding: 0px;
+	float: center;
+	text-align: center;
+}
+/*Dropdown button when screen size is small*/\
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
+
+nav select {
+  display: none;
+}
