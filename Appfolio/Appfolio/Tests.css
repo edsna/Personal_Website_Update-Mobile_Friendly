@@ -77,8 +77,9 @@
 .Links_Right{
 	display: inline-block;
 	float: right;
-	margin: 5px;
+	margin: 10px;
 	color: blue;
+	text-align: right;
 }
 
 .testing{
@@ -91,7 +92,7 @@
 	margin: 0px;
 	font-weight: 600px;
 	color: blue;
-	display: inline-block;	/*Removes bullet points*/
+	display: inline-block;	/*KEEPS THEM IN LINE*/
 	font-family: Lucida Sans Typewriter;
 	padding-right: 5px;
 }
@@ -103,7 +104,7 @@
 }
 
 .toggler_button:hover .dropdown_content {
-    display: block;
+    display: inline-block;
 }
 
   /*SIZE OF WINDOW WHEN IT COMES OUT-AFTER CLICKED*/
@@ -120,6 +121,7 @@
 	padding-bottom: 0px;
 	cursor: default;
 	overflow: inherit;
+	
 	
 }
 
@@ -183,3 +185,16 @@ nav select {
         display: none;
     }
 }
+
+.titos{
+	display: inline-block;
+}
+
+.LinR{
+	padding:10px;
+}
+
+/*BACKUP FONTS TO USE IN THE FUTURE, ALSO CONSIDER STYLING BUTTON
+font: 300 21px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+*/
+
