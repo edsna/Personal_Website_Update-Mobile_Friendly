@@ -155,3 +155,40 @@
 nav select {
   display: none;
 }
+
+/*Saturday's work down below*/
+
+nav select {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
+
+	/*Removes bullet points*/
+    nav ul {
+      list-style: none;
+    }
+	/*just puts them in line*/
+    nav li {
+      display: inline-block;
+    }
+
+	/*BASICALLY I'M MISSING A CONNECTION BETWEEN THE SELECTED LIST OF LINKS AND THE REGULAR LINKS SO THAT 
+	WHEN THE VIEW COLAPSES AND THE DROPDOWN BUTTON COMES UP, - THE REGULAR LIST OF LINKS DISAPPEARS
+	>>WORKING ON THIS TOMORROW.*/
+
+/*Hiding Menu Icon & ProfileDown info & functions for small sizes--gives me less work to deal with the boxes
+@media only screen and (max-width: 1026px) {
+    .MenuClass {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1026px) {
+    .ProfileDropdown {
+        display: none;
+    }
+}*/
