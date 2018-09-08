@@ -187,106 +187,12 @@ nav select {
 	padding-left: 9px;
 }
 
-#my_tabs{
-	height: calc(2*128px + 36px);
-	width:462;
-	-webkit-user-select: none;
-    margin: 0;
-    text-align: -webkit-center;
-	width:510px; 
-	margin:0 auto;
-	top: 32px;
-	margin-top:10px;
-	/*resize: both;
-    overflow: auto;*/	
+#FooterFix{
+	line-height: 0;
 }
 
-#tiles{
 
-  -webkit-user-select: none;
-  font-size: 0;
-  /* Two rows of tiles of 128px each, and 16px of spacing between the rows.
-   * If you change this, also change the corresponding values in
-   * local_ntp.css. */
-  height: calc(2*128px + 46px);
-  margin: 4px 0 8px 0;
-  opacity: 1;
-  position: relative;
-  /* This align correctly for both LTR and RTL */
-  text-align: -webkit-auto;
-  transition: opacity 1s;
-  width:524; 
-}
-.tile_region,
-.mv-empty-tile {
-  border-radius: 2px;
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: arial, sans-serif;
-  font-size: 12px;
-  height: 128px;
-  line-height: 100%;
-  margin: 0 8px;
-  opacity: 1;
-  overflow: hidden;
-  position: relative;
-  vertical-align: top;
-  white-space: nowrap;
-  width: 154px;
-  bottom: 8px;
-}
 
-.tile_region {
-  background: #f1f1f1;
-  margin:10px;  
-}
-
-.LogoNewTab {
-  left: 7px;
-  position: absolute;
-  top: 8px;
-  bottom: 8px;
-}
-
-.page_overview-title {
-  height: 15px;
-  left: 31px;
-  line-height: 14px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  text-overflow: ellipsis;
-  top: 9px;
-  width: 120px;
-  color: blue; 
-}
-
-.page_overview-title {
-  height: 15px;
-  left: 31px;
-  line-height: 14px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  text-overflow: ellipsis;
-  top: 9px;
-  width: 120px;
-  color: blue;
-}
-
-.page_overview {
-  cursor: pointer;
-  display: block;
-  height: 96px;
-  overflow: hidden;
-  position: absolute;
-  top: 32px;
-  width: 154px;
-}
-
-.mv-empty-tile {
-  background: rgb(245,245,245);
-}
 
 /*BACKUP FONTS TO USE IN THE FUTURE, ALSO CONSIDER STYLING BUTTON
 font: 300 21px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
