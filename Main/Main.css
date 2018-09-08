@@ -1,6 +1,10 @@
-#HeaderBg{
+.Links_Left{
+	float: left;
 	background-color: white;
+	color: blue;
 }
+
+
 .Professional_Networks{
 	padding: 0px;
 	float: center;
@@ -32,7 +36,6 @@
 	display: block;
 	float: right;
 	padding: 0px;
-	padding-right: 15px;
 }
 
 .listsClass{
@@ -49,6 +52,10 @@
 	display: inline-block;
 	margin: 5px;
 	cursor: pointer;
+	
+}
+.toggler_button{
+	float: right;
 }
 
 .toggler_button:hover .dropdown_content {
@@ -139,6 +146,7 @@ nav select {
 /*NavBar*/
 .titos{
 	display: inline-block;
+
 }
 /*Every Link*/
 .LinR{
@@ -146,6 +154,139 @@ nav select {
 	font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
 }
 
+/*Styling body*/
+.Home_logo img {
+ display:block;
+    margin:auto;
+	/*
+	    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	*/
+}
+
+.SearchHomeBar {
+	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	max-width: 586px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	min-height: 38px;
+	border: 1px solid #4d90fe;
+	padding-top: 5px;
+	padding-right: 9px;
+	padding-bottom: 0px;
+	padding-left: 9px;
+}
+
+#my_tabs{
+	height: calc(2*128px + 36px);
+	width:462;
+	-webkit-user-select: none;
+    margin: 0;
+    text-align: -webkit-center;
+	width:510px; 
+	margin:0 auto;
+	top: 32px;
+	margin-top:10px;
+	/*resize: both;
+    overflow: auto;*/	
+}
+
+#tiles{
+
+  -webkit-user-select: none;
+  font-size: 0;
+  /* Two rows of tiles of 128px each, and 16px of spacing between the rows.
+   * If you change this, also change the corresponding values in
+   * local_ntp.css. */
+  height: calc(2*128px + 46px);
+  margin: 4px 0 8px 0;
+  opacity: 1;
+  position: relative;
+  /* This align correctly for both LTR and RTL */
+  text-align: -webkit-auto;
+  transition: opacity 1s;
+  width:524; 
+}
+.tile_region,
+.mv-empty-tile {
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  height: 128px;
+  line-height: 100%;
+  margin: 0 8px;
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 154px;
+  bottom: 8px;
+}
+
+.tile_region {
+  background: #f1f1f1;
+  margin:10px;  
+}
+
+.LogoNewTab {
+  left: 7px;
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+}
+
+.page_overview-title {
+  height: 15px;
+  left: 31px;
+  line-height: 14px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  text-overflow: ellipsis;
+  top: 9px;
+  width: 120px;
+  color: blue; 
+}
+
+.page_overview-title {
+  height: 15px;
+  left: 31px;
+  line-height: 14px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  text-overflow: ellipsis;
+  top: 9px;
+  width: 120px;
+  color: blue;
+}
+
+.page_overview {
+  cursor: pointer;
+  display: block;
+  height: 96px;
+  overflow: hidden;
+  position: absolute;
+  top: 32px;
+  width: 154px;
+}
+
+.mv-empty-tile {
+  background: rgb(245,245,245);
+}
 
 /*BACKUP FONTS TO USE IN THE FUTURE, ALSO CONSIDER STYLING BUTTON
 font: 300 21px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;

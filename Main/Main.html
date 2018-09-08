@@ -20,7 +20,7 @@
   </head>
   <body>
     
-	  <nav id="HeaderBg" class="navbar navbar-light bg-light">
+	  <nav style="background-color: #FFFFFF;" id="HeaderBg" class="navbar navbar-light bg-light">
 
 	<!--When Links Right is done, make sure to add icon pictures with nice rounded corners of all the apps that I've built and are on my Git-->
 	
@@ -52,7 +52,6 @@
 						
 						<div class="MenuClass">
 						
-
 							<!--MENU BUTTON ICON-->							
 							<img onclick="myFunction()" class="toggler_button" alt="My_Apps" src="http://www.edsonz.domains.trincoll.edu/images/Menu.png">
 							
@@ -167,6 +166,51 @@
 						</div>
 						<!--END OF PROFILE PICTURE MENU-->
   </nav>
+  
+  
+  	<!--BEG OF SEARCH & MY TAB's SECTION-->
+    <section class="">
+		<!--HOMEPAGE's LOGO-->
+		<div class="Home_logo">
+			<img alt="Edson Zandamela" class="My_Name" src="http://www.edsonz.domains.trincoll.edu/images/Edson_Zandamela.png" />
+		</div>
+		
+		<!--BEG OF SEARCH BAR-->
+		<div class="SearchHomeBar">
+			<div id="typed-strings">
+				<p style="display:none;" style="font-family: Lucida Sans Typewriter" >Hi,</p>
+					<p style="display:none;">My name is Edson de Aguiar Zandamela</p>
+					<p style="display:none;">I am a Computer Science & Psychology double major, and Cognitive Science minor.</p>
+					<p style="display:none;">I am passionate about the intersection between Artificial Intelligence,</p>
+					<p style="display:none;"> Human - computer interaction, and Software Engineering,</p>
+					<p style="display:none;">and I love experimenting in my fields of study</p>
+					<p style="display:none;">Explore some of my work below</p>
+					<p style="display:none;"> And reach out to me if you find it interesting</p>
+					<p style="display:none;">Thanks for your time!</p>
+					<p style="display:none;">Regards,</p>
+					<p>Edson!</p>
+				
+			</div>
+			<span id="typed"></span>
+		</div>
+		<!--END OF SEARCH BAR-->
+				
+		<!--BEG OF SEARCH BAR's LOGIC-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script>
+					  $(function(){
+								$("#typed").typed({
+							stringsElement: $('#typed-strings'),
+							contentType: 'html',
+							typeSpeed: 50,
+							startDelay: 500
+							});
+					  });
+			</script>
+			<!--END OF SEARCH BAR's LOGIC-->
+	</section>
+  
+  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
