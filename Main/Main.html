@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="PPDropdown.css"/>
+	<script type="text/javascript" src="PPDropdownLogic.js"></script>
+	<link rel="stylesheet" type="text/css" href="Hc.css">
+	<script src="stylesheet" href="Hc.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="jquery-3.2.1.min.js"></script>	<link rel="stylesheet" href="Main.css">
+
+
+	
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+	  <nav id="HeaderBg" class="navbar navbar-light bg-light">
+
+	<!--When Links Right is done, make sure to add icon pictures with nice rounded corners of all the apps that I've built and are on my Git-->
+	
+	<!--Beg Of LinksRight-->
+					<div class="Links_Left">
+						<!--BEG MY_APPS BUTTON-->
+							<nav class="titos">
+								<ul class="">
+									<li class="LinR" href="home"><a href="https://www.edsonz.domains.trincoll.edu/" title="Homepage">Home</a></li>					
+									<li class="LinR" href="apfolio"><a target="_blank" href="https://www.appfolio.edsonz.domains.trincoll.edu/" title="MobileApps Collection">Appfolio</a></li>
+									<li class="LinR" href="wbfolio"><a target="_blank" href="https://www.webfolio.edsonz.domains.trincoll.edu/" title="Websites Collection">Webfolio</a></li>
+									<li class="LinR" href="blg"><a target="_blank" href="https://progectoscaseiros.blogspot.com/p/engenhocas.html" title="publications & Creations">Blog</a></li>
+									<li class="LinR" href="cntct"><a target="_blank" href="https://www.contact.edsonz.domains.trincoll.edu/">Contact</a></li>
+					            </ul>	
+                                <select name="forma" onchange="location = this.value;"> 
+                                    <option value="" selected="selected" class="slctIcnBtn">Select...</option> 
+
+                                    <option class="LinR" value="https://www.edsonz.domains.trincoll.edu/">Home</option> 
+                                    <option class="LinR" value="https://www.appfolio.edsonz.domains.trincoll.edu/">Appfolio</option> 
+                                    <option class="LinR" value="https://www.webfolio.edsonz.domains.trincoll.edu/">Webfolio</option> 
+                                    <option class="LinR" value="https://progectoscaseiros.blogspot.com/p/engenhocas.html">Blog</option> 
+                                    <option class="LinR" value="https://www.contact.edsonz.domains.trincoll.edu/">Contact</option> 
+                                </select> 
+								
+							</nav>
+					</div>
+							
+					<div class="Links_Right">
+						
+						<div class="MenuClass">
+						
+
+							<!--MENU BUTTON ICON-->							
+							<img onclick="myFunction()" class="toggler_button" alt="My_Apps" src="http://www.edsonz.domains.trincoll.edu/images/Menu.png">
+							
+								<!--DROPDOWN LIST CONTENT-->
+								<div id="myDropdown" class="dropdown_content">
+									
+									<div class="dropdown_pin">
+										<img border="0" src="http://www.edsonz.domains.trincoll.edu/images/MenuPin.png">
+									</div>
+
+									<div class="">
+										<div class="FirstSection">
+											<a target="_blank" title="Christmas Gift" href="http://www.christmasgift.edsonz.domains.trincoll.edu/"><img alt="Christmas Gift" src="http://www.edsonz.domains.trincoll.edu/images/favChrist32x32.png" border=0></a>
+										</div>
+										
+										<div class="FirstSection">
+											<a target="_blank" title="Appreciation Gift" href="http://www.appreciationgift.edsonz.domains.trincoll.edu/"><img alt="Appreciation Gift" src="http://www.edsonz.domains.trincoll.edu/images/favapprec32x32.png" border=0></a>
+										</div>
+										
+										<div class="FirstSection">
+											<a target="_blank" title="Birthday Gift" href="http://www.birthdaygift.edsonz.domains.trincoll.edu/"><img alt="Birthday Gift" src="http://www.edsonz.domains.trincoll.edu/images/favBirth32x32.png" border=0></a>
+										</div>
+									</div>
+
+									<div class="">
+										<div class="SecondSection">
+											<a target="_blank" title="Twitter" href="http://www.twitter.com/Edsn_Aguiar"><img alt="Follow me on twitter" src="http://www.edsonz.domains.trincoll.edu/images/Twitter32.png" border=0></a>
+										</div>
+										<div class="SecondSection">
+											<a target="_blank" title="COLL-220 Portfolio" href="http://edsonz.domains.trincoll.edu/Portfolio/"><img alt="COLL-220 Portfolio" src="http://www.edsonz.domains.trincoll.edu/images/WordPress32x32.png" border=0></a>
+										</div>
+										
+										<div class="SecondSection">
+											<a target="_blank" title="Blog" href="http://progectoscaseiros.blogspot.com/"><img alt="Explore my Publications" src="http://www.edsonz.domains.trincoll.edu/images/blogger_32x32.png" border=0></a>
+										</div>
+										
+									</div>
+									
+									<div class="MoreButton">
+										<div class="More">
+											<p class="MorePar"><a target="_blank" href="https://www.appfolio.edsonz.domains.trincoll.edu/">More</a></p>
+										</div>
+									</div>
+									
+								</div>
+								<!--END OF DROPDOWN CONTENT-->
+						</div>
+						<!--END OF MY_APPS BUTTON CONTENT-->
+
+						
+						<!--BEG OF MY_APPS BUTTON's LOGIC-->
+						<script>
+								/* When user clicks on the button, 
+								toggle between hiding and showing the dropdown content */
+								function myFunction() {
+									document.getElementById("myDropdown").classList.toggle("show");
+								}
+
+								// Close the dropdown if the user clicks outside of it
+								window.onclick = function(event) {
+								  if (!event.target.matches('.toggler_button')) {
+
+									var dropdowns = document.getElementsByClassName("dropdown_content");
+									var i;
+									for (i = 0; i < dropdowns.length; i++) {
+									  var openDropdown = dropdowns[i];
+									  if (openDropdown.classList.contains('show')) {
+										openDropdown.classList.remove('show');
+									  }
+									}
+								  }
+								}
+								
+						</script>
+						<!--END OF MY_APPS BUTTON's LOGIC-->
+					</div>
+						<!--END LINKS RIGHT-->
+					<!--BEG OF PROFILE PICTURE-->
+						<div class="ProfileDropdown">
+						
+							<img src="https://www.edsonz.domains.trincoll.edu/images/EdsonProfile.png" onclick="PpFunction()" class="dropPict">
+							<!--BEG OF DROPDOWN CONTENT-->
+								<div id="PpDropdown" class="dropdown-content">									
+									<div class="PPdropdown_pin">
+										<img border="0" src="http://www.edsonz.domains.trincoll.edu/images/MenuPin.png">
+									</div>
+														
+									<div class="dropdownPP">
+										<img class="drpdPP" border="0" src="https://www.edsonz.domains.trincoll.edu/images/EdsonProfile.png">
+									</div>
+																
+						  <!--THIS HAVE TO BE ON THE LEFT OF MY PROFILE PICTURE ABOVE-->
+									<div class="BasicInfo">
+										<div>
+											<p class="MyName"> Edson Zandamela </p>
+										</div>
+										
+										<div class="MyEmail">
+											<p>edson.zandamela@trincoll.edu</p>
+										</div>
+										
+										<div class="MyGoogleProfile">
+											<a href="https://plus.google.com/u/0/+EdsonZandamelaa" style="color: blue;">Google+ Profile </a>
+										</div>
+																		
+										<div class="PotentialButtons">
+											<!--BUTTON SHOULD BE AROUND HERE-->
+										</div>
+									</div>
+								</div>
+								<!--END OF DROPDOWN CONTENT-->
+						</div>
+						<!--END OF PROFILE PICTURE MENU-->
+  </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
