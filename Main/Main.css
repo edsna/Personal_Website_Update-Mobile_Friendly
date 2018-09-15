@@ -52,35 +52,23 @@
 	display: inline-block;
 	margin: 5px;
 	cursor: pointer;
+	/*margin-right: 0px;
+	padding-right: 0px;*/
 	
 }
 .toggler_button{
+	margin:0px;
 	float: right;
+	text-align: right;
+	vertical-align: right;
+	/*
+	margin-right: 0px;
+	padding-right: 0px;*/
 }
 
 .toggler_button:hover .dropdown_content {
     display: inline-block;
 }
-
-.dropdown_content{
-	display: none;
-	/*z-index: 1000;*/
-	position: absolute;
-	width: 180px; 
-	margin-left: -207px;
-	margin-top: 9px;
-	border: 1px solid #ccc !important;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 0px;
-	cursor: default;
-}
-
-.dropdown_pin{
-	margin-top: -12px;
-	margin-left: 177px;
-}
-
 
   /*SIZE OF WINDOW WHEN IT COMES OUT-AFTER CLICKED*/
 .dropdown_content{

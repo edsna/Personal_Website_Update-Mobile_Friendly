@@ -1,0 +1,82 @@
+/*Update for better performance should begin here*/
+.Links_Right{
+	display: block;
+	float: right;
+	padding: 0px;
+}
+
+.listsClass{
+	/*background-color: white;*/
+	margin: 0px;
+	font-weight: 600px;
+	color: blue;
+	display: inline-block;	/*KEEPS THEM IN LINE*/
+	font-family: Lucida Sans Typewriter;
+	padding-right: 5px;
+}
+
+.MenuClass{
+	display: inline-block;
+	margin: 5px;
+	cursor: pointer;
+	/*margin-right: 0px;
+	padding-right: 0px;*/
+	
+}
+.toggler_button{
+	margin:50px;
+	float: right;
+	text-align: right;
+	vertical-align: right;
+	/*
+	margin-right: 0px;
+	padding-right: 0px;*/
+}
+
+.toggler_button:hover .dropdown_content {
+    display: inline-block;
+}
+
+  /*SIZE OF WINDOW WHEN IT COMES OUT-AFTER CLICKED*/
+.dropdown_content{
+	display: none;
+	z-index: 100;
+	position: absolute;
+	width: 120px; 
+	margin-left: -85px;
+	margin-top: 5px;
+	border: 1px solid #ccc !important;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	cursor: default;
+	overflow: inherit;
+}
+/*MAY NEED A VERSION FOR APPS MENU*/
+.dropPict:hover .dropdown-content {
+    display: inline-block;
+}
+
+.dropdown_pin{
+	margin-top: -15px;
+	margin-left: 10px;
+}
+
+.FirstSection{
+	display: inline;
+	margin: 5px;
+}
+
+.SecondSection{
+	display: inline;
+	margin: 5px;
+}
+/*More button has to become a link and redirect to my mobile Apps repository on git hub*/
+
+.More{
+	/*background-color: #f1f1f1;*/
+	margin: 0px;
+	padding: 0px;
+	float: center;
+	text-align: center;
+}

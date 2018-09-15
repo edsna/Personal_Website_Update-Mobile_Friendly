@@ -14,8 +14,9 @@ JUST CHANGES THE COLOR/FOCUS OF THE BUTTON SO THE USER NOTICES THEY'RE HOVERING 
 */
 
 .ProfileDropdown {
-    position: static;
+    
     display: inline-block;
+	float: right;
 }
 
 .dropdown-content {
