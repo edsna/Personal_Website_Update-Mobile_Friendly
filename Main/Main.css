@@ -165,12 +165,14 @@ nav select {
 .Home_logo img {
  display:block;
     margin:auto;
-	/*
+	
 	    position: absolute;
     margin: auto;
-    top: 0;
+    
     left: 0;
     right: 0;
+	/*
+	top: 0;
     bottom: 0;
 	*/
 }
@@ -192,6 +194,13 @@ nav select {
 	padding-right: 9px;
 	padding-bottom: 0px;
 	padding-left: 9px;
+	
+	margin:auto;
+	margin-top: 200px;
+	position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 
 #FooterFix{
