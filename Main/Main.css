@@ -56,11 +56,25 @@
 	padding-right: 0px;*/
 	
 }
-.toggler_button{
-	margin:0px;
+
+.toggler_button {
+  border-radius: 50%;
+  /*margin: 20px;*/
+  margin-left:20px;
+  overflow: hidden;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  z-index: 0;
+  cursor: pointer;
+  	margin:0px;
 	float: right;
 	text-align: right;
 	vertical-align: right;
+}
+
+.toggler_button{
+
 	/*
 	margin-right: 0px;
 	padding-right: 0px;*/
