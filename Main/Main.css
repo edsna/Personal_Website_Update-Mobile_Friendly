@@ -52,9 +52,8 @@
 	display: inline-block;
 	margin: 5px;
 	cursor: pointer;
-	/*margin-right: 0px;
-	padding-right: 0px;*/
-	
+	margin-right: 0px;
+	padding-right: 0px;	
 }
 
 .toggler_button {
@@ -68,9 +67,10 @@
   z-index: 0;
   cursor: pointer;
   	margin:0px;
-	float: right;
+	/*
 	text-align: right;
 	vertical-align: right;
+	*/
 }
 
 .toggler_button{
@@ -160,9 +160,13 @@ nav select {
 
 /*Hides Menu Icon & ProfileDown when user's width screen size is <= 960px*/
 @media only screen and (max-width: 960px) {
-    .MenuClass, .dropPict {
+    .MenuClass, .toggler_button {
         display: none;
     }
+	.Home_logo img{
+		height: 50%;
+		width: 50%;
+	}
 }
 /*NavBar*/
 .titos{
@@ -179,16 +183,12 @@ nav select {
 .Home_logo img {
  display:block;
     margin:auto;
-	
-	    position: absolute;
+	position: absolute;
     margin: auto;
-    
     left: 0;
     right: 0;
-	/*
-	top: 0;
-    bottom: 0;
-	*/
+	top: 30%;
+    bottom: 70%;
 }
 
 .SearchHomeBar {
@@ -215,7 +215,8 @@ nav select {
     margin: auto;
     left: 0;
     right: 0;
-	top: 300px;
+	/*top: 30%;*/
+    bottom: 50%;
 }
 
 #FooterFix{
