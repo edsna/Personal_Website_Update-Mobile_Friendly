@@ -35,7 +35,7 @@
 .Links_Right{
 	display: block;
 	float: right;
-	padding: 0px;
+	/*padding: 110px;*/
 }
 
 .listsClass{
@@ -48,6 +48,8 @@
 	padding-right: 5px;
 }
 
+/*
+
 .MenuClass{
 	display: inline-block;
 	margin: 5px;
@@ -55,10 +57,11 @@
 	margin-right: 0px;
 	padding-right: 0px;	
 }
-
+*/
+/*
 .toggler_button {
   border-radius: 50%;
-  /*margin: 20px;*/
+  /*margin: 20px;
   margin-left:20px;
   overflow: hidden;
   position: relative;
@@ -72,17 +75,11 @@
 	vertical-align: right;
 	*/
 }
-
-.toggler_button{
-
-	/*
-	margin-right: 0px;
-	padding-right: 0px;*/
-}
-
+/*
 .toggler_button:hover .dropdown_content {
-    display: inline-block;
+    display: block;
 }
+*/
 
   /*SIZE OF WINDOW WHEN IT COMES OUT-AFTER CLICKED*/
 .dropdown_content{
@@ -127,7 +124,7 @@
 	float: center;
 	text-align: center;
 }
-/*Dropdown button when screen size is small*/\
+/*Dropdown button when screen size is small*/
 @media (max-width: 960px) {
   nav ul     { display: none; }
   nav select { display: inline-block; }
