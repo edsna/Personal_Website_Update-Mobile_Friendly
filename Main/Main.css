@@ -35,6 +35,7 @@
 .Links_Right{
 	display: block;
 	float: right;
+	margin: 20px;
 	/*padding: 110px;*/
 }
 
@@ -157,7 +158,7 @@ nav select {
 
 /*Hides Menu Icon & ProfileDown when user's width screen size is <= 960px*/
 @media only screen and (max-width: 960px) {
-    .MenuClass, .toggler_button {
+    .MenuClass, .toggler_button, .dropPict {
         display: none;
     }
 	.Home_logo img{
