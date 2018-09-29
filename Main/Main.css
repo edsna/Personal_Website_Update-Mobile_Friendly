@@ -125,6 +125,11 @@
 	height: 40px;
 	overflow: hidden
 }
+
+.More a {
+		font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+		font-size: 18px;
+}
 /*Dropdown button when screen size is small*/
 @media (max-width: 960px) {
   nav ul     { display: none; }
@@ -175,6 +180,7 @@ nav select {
 .LinR{
 	padding-right:15px;
 	font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+	margin-top: 20px;
 }
 
 /*Styling body*/
